@@ -1,0 +1,116 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-color: #f5f7fa;
+  color: #1e1e1e;
+}
+
+.logout-btn {
+  padding: 8px 135px;
+  background-color: #f53b57;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 8px;
+  font-size: 14px;
+  transition: 0.2s;
+  
+}
+
+.logout-btn:hover {
+  background-color: #d63031;
+}
+
+.content {
+  margin: 10% 34%;
+}
+
+
+    .card {
+      background: #fff;
+      padding: 30px;
+      border-radius: 20px;
+      box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+      width: 400px;
+      text-align: center;
+      transition: 0.3s;
+    }
+
+    h2 {
+      color: #000000;
+      margin-bottom: 15px;
+      margin-top: 10px;
+    }
+
+    .options {
+      display: flex;
+      justify-content: space-around;
+      margin: 15px 0;
+    }
+
+    label {
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    input[type="radio"] {
+      accent-color: #007bff;
+      transform: scale(1.3);
+    }
+
+    form {
+      margin-top: 20px;
+      display: none;
+      text-align: left;
+    }
+
+    input, select, button {
+      width: 100%;
+      padding: 10px;
+      margin: 6px 0;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+    }
+
+    button {
+      background: #007bff;
+      color: white;
+      border: none;
+      cursor: pointer;
+      font-weight: bold;
+    }
+
+    button:hover {
+      background: #0056b3;
+    }
+
+    table {
+      width: 100%;
+      margin-top: 30px;
+      border-collapse: collapse;
+      background: white;
+    }
+
+    th, td {
+      padding: 8px;
+      border: 1px solid #ddd;
+      text-align: center;
+    }
+
+    th {
+      background: #007bff;
+      color: white;
+    }
+
+    form { display: none; margin-top: 15px; }
+    form.active { display: block; }
+    input[readonly] { background: #f3f3f3; }
+    table { width: 100%; border-collapse: collapse; margin-top: 20px; }
+    table, th, td { border: 1px solid #ccc; }
+    th, td { padding: 8px; text-align: center; }
